@@ -1,8 +1,9 @@
 import React from 'react';
+import background from '../public/background.png'
 
 function App() {
   const value = 'Sachverständiger Thomas Kimpel';
-  return <div>Willkommen bei {value}</div>;
+  return <div styles={{ backgroundImage:`url(${background})` }}>Willkommen bei {value}</div>;
 }
 
 export default App;
