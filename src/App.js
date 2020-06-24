@@ -1,5 +1,5 @@
 import React from 'react';
-import background from '../public/background.png'
+import background from './background.png'
 
 function App() {
   const value = 'Sachverständiger Thomas Kimpel';
