@@ -3,7 +3,7 @@ import background from './background.png'
 
 function App() {
   const value = 'Sachverständiger Thomas Kimpel';
-  return <div styles={{ backgroundImage:`url(${background})` }}>Willkommen bei {value}</div>;
+  return <div style={{ backgroundImage:`url(${background})` }}>Willkommen bei {value}</div>;
 }
 
 export default App;
