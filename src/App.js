@@ -59,7 +59,8 @@ function App() {
                 Mobil: 0176 / 12348025<br />
                 E-Mail: <a href='mailto:kimpel@sv-kimpel.de' style={styleLinks}>kimpel@sv-kimpel.de</a><br />
                 <br /><br />
-                Mitglied im BVS <a href='https://www.bvs-ev.de' style={styleLinks}>www.bvs-ev.de</a> (Anwärter)<br />
+                Mitglied im BVS <a href='https://www.bvs-ev.de' style={styleLinks}>www.bvs-ev.de</a> (Anwärter)
+                <br /><br />
                 <img src={(testmark)} style={styleTestMark} alt='Testmark 0000074165' />
             </div>
         </div>;
