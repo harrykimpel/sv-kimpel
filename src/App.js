@@ -65,7 +65,7 @@ function App() {
             <br /><br />
                 Mitglied im BVS <a href='https://www.bvs-ev.de' style={styleLinks}>www.bvs-ev.de</a> (Anwärter)
                 <br /><br />
-            <a href=''><img src={(testmark)} style={styleTestMark} alt='Testmark 0000074165' /></a>
+            <a href='https://www.certipedia.com/quality_marks/0000074165?locale=de'><img src={(testmark)} style={styleTestMark} alt='Testmark 0000074165' /></a>
         </div>
     </div>;
 }
