@@ -12,7 +12,9 @@ function App() {
             backgroundImage: `url(${europacenter})`
         }*/
   
-  const styleMain2 = { width: `100%`, height: `768px`, backgroundImage: `url(${europacenter})`, backgroundRepeat: 'repeat' }
+  //const styleMain2 = { width: `100%`, height: `768px`, backgroundImage: `url(${europacenter})`, backgroundRepeat: 'repeat' }
+  const styleMain2 = { backgroundImage: `url(${europacenter})` }
+  const styleMainCSS = "main-style"
 
   const styleMainContent = {
             position: 'absolute',
@@ -34,7 +36,7 @@ function App() {
             fontWeight: 'bold',
         }
         
-  return <div style={styleMain2}>
+  return <div style={styleMain2} className={styleMainCSS}>
             <div style={styleMainContent}>
                 Sachverständigen- und Ingenieurbüro Thomas Kimpel<br />
                 Dipl.-Bauingenieur (FH)<br />
