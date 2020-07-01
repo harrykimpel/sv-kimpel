@@ -14,7 +14,7 @@ function App() {
   
   //const styleMain2 = { width: `100%`, height: `768px`, backgroundImage: `url(${europacenter})`, backgroundRepeat: 'repeat' }
   const styleMain2 = { backgroundImage: `url(${europacenter})` }
-  const styleMainCSS = "main-style"
+  const styleMainCSS = "mainstyle"
 
   const styleMainContent = {
             position: 'absolute',
