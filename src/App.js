@@ -17,7 +17,7 @@ function App() {
   const styleMainContent = {
             position: 'absolute',
             marginLeft: `620px`,
-            marginTop: `60px`,
+            marginTop: `40px`,
             color: `#ffffff`,
             fontWeight: 'bold',
             backgroundColor: "blue",
