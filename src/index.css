@@ -1,5 +1,6 @@
-.main-style {
+.mainstyle {
   width: 100%;
+  height: 768px;
 
   /* Small Devices, Tablets */
   @media only screen and (min-width : 768px) {
