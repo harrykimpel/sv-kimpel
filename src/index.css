@@ -1,7 +1,5 @@
 .main-style {
-  background-color: red;
   width: 100%;
-  margin: 0 auto;
 
   /* Small Devices, Tablets */
   @media only screen and (min-width : 768px) {
@@ -12,6 +10,8 @@
   /* Medium Devices, Desktops */
   @media only screen and (min-width : 992px) {
     width: 50%;
+    height: 768px;
     background-color: pink;
+    background-repeat: 'repeat'
   }
 }
