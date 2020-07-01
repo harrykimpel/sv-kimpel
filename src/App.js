@@ -12,7 +12,7 @@ function App() {
             backgroundImage: `url(${europacenter})`
         }*/
   
-  const styleMain2 = { width: `100%`, height: `768px`, backgroundImage: `url(${europacenter})` }
+  const styleMain2 = { width: `100%`, height: `100%`, backgroundImage: `url(${europacenter})` }
 
   const styleMainContent = {
             position: 'absolute',
