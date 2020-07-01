@@ -1,10 +1,10 @@
 import React from 'react';
-import background from './background.png'
+//import background from './background.png'
 import testmark from './TR-Testmark_0000074165_DE_CMYK_with-QR-Code.png'
 import europacenter from './Ansicht_070207_Europacenter_2.png'
 
 function App() {
-  const value = 'Sachverständiger Thomas Kimpel';
+  //const value = 'Sachverständiger Thomas Kimpel';
   
   const styleMain = {
             width: `100%`,
@@ -58,7 +58,7 @@ function App() {
                 E-Mail: <a href='mailto:kimpel@sv-kimpel.de' style={styleLinks}>kimpel@sv-kimpel.de</a><br />
                 <br /><br />
                 Mitglied im BVS <a href='https://www.bvs-ev.de' style={styleLinks}>www.bvs-ev.de</a> (Anwärter)<br />
-                <img src={(testmark)} style={styleTestMark} />
+                <img src={(testmark)} style={styleTestMark} alt='Testmark 0000074165' />
             </div>
         </div>;
 }
