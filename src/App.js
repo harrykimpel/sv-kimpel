@@ -6,11 +6,11 @@ import europacenter from './Ansicht_070207_Europacenter_2.png'
 function App() {
   //const value = 'Sachverständiger Thomas Kimpel';
   
-  const styleMain = {
+  /*const styleMain = {
             width: `100%`,
             height: `100%`,
             backgroundImage: `url(${europacenter})`
-        }
+        }*/
   
   const styleMain2 = { width: `1024px`, height: `768px`, backgroundImage: `url(${europacenter})` }
 
